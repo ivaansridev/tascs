@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      The platform's default theme adds an ActionBar above the Compose content.
+      That bar shows the app label ("Tascs") and is the duplicate banner. Use a
+      NoActionBar theme so only the Compose top app bar is visible.
+    -->
+    <style name="Theme.Tascs" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF14130C</item>
+        <item name="android:statusBarColor">#FF14130C</item>
+        <item name="android:navigationBarColor">#FF14130C</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

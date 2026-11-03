@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- 
+      Original SVG transform: matrix(0.66, 0, 0, 0.66, 60, 44.1)
+      Content bounds after transform: x=[77.2, 429.6], y=[61.3, 450.6]
+      The 0.88 group scale keeps the glyph clear of square/rounded-square
+      adaptive-icon masks; the round variant scales further down.
+    -->
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.88"
+        android:scaleY="0.88">
+        <!-- List item card (rounded rect) -->
+        <path
+            android:pathData="M77.2,61.3 H174.8 A22.4,22.4 0 0 1 197.2,83.7 V136.5 A22.4,22.4 0 0 1 174.8,158.9 H77.2 A22.4,22.4 0 0 1 54.8,136.5 V83.7 A22.4,22.4 0 0 1 77.2,61.3 Z"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="34.32"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Check mark -->
+        <path
+            android:pathData="M111.5,110.1 L123.4,122.0 L143.2,95.6"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="26.4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M229.0,110.1 H429.6"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="44.88"
+            android:strokeLineCap="round" />
+        <!-- Second bullet (circle) and line -->
+        <path
+            android:pathData="M126.0,260.6 m-48.8,0 a48.8,48.8 0 1,0 97.6,0 a48.8,48.8 0 1,0 -97.6,0"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="34.32" />
+        <path
+            android:pathData="M229.0,260.6 H429.6"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="44.88"
+            android:strokeLineCap="round" />
+        <!-- Third bullet (star/pentagon) and line -->
+        <path
+            android:pathData="M126.0,362.2 L172.5,395.9 L154.7,450.6 L97.3,450.6 L79.5,395.9 Z"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="34.32"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M229.0,411.1 H429.6"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFE97A"
+            android:strokeWidth="44.88"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
